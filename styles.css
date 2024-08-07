@@ -1,0 +1,213 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #F3DEE5;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.header-left{
+    display: flex;
+    flex-direction: column;
+}
+.header-left img {
+    width: 40px;
+    height: 40px;
+    margin: 10px 0 0 60px;
+}
+.header-left p {
+    margin-left: 20px;
+}
+.header-right{
+    display: flex;
+    justify-content: space-between;
+}
+.header-right ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    gap: 30px;
+    color: rgb(114, 109, 109);
+    font-size: 20px;
+    font-weight: 400;
+    margin-right: 20px;
+}
+.header-right ul :hover{
+    color: black;
+    cursor: pointer;
+}
+.header-right ul li a {
+    text-decoration: none;
+    color:  rgb(114, 109, 109);;
+}
+.title p {
+    font-family: Tangerine;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 67.5px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    margin: 60px;
+    font-family: Tangerine;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 67.5px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    
+}
+button {
+    display: block;
+    padding: 8px 24px ;
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+    background: #313131;
+    cursor: pointer;
+    border: none;
+    margin: auto;
+}
+button:hover{
+    background-color: #F3DEE5;
+    color: #313131;
+}
+.title .offer {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 17.07px;
+    text-align: center;
+    color: #7E7E7E;
+}
+.photos {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+.left{
+    display: flex;
+    align-self: flex-start;
+    margin-left: 20px;
+}
+.center {
+    display: flex;
+    align-self: flex-end;
+}
+.right {
+    display: flex;
+    align-self: flex-start;
+    margin-right: 20px;
+
+}
+.menu {
+    margin: auto;
+    margin-top: 120px;
+}
+.menu h2 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 67.5px;
+    letter-spacing: 0.03em;
+    text-align: center;
+}
+hr {
+    position: absolute;
+    display: block;
+    width: 56px;
+    height: 1px;
+    background-color: #F3DEE5;
+    left: 410px;
+}
+.menu p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.food {
+    display: flex;
+    justify-content: space-around;
+}
+.meal span {
+    display: block;
+    margin-left: 40px;
+}
+.about {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    height: auto;
+}
+.about-right {
+    width: fit-content;
+    height: 481px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items:center;
+    background-color: #FBEDCA ;
+}
+.about-right h2 {
+    margin: 60px;
+}
+.about-right p {
+    margin: 60px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+}
+.review {
+    text-align: center;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.customer {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content:center;
+}
+.text {
+    margin: 60px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+}
+.contact {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+   padding: 30px;
+}
+.contact ul {
+    list-style-type: none;
+}
+.contact ul li {
+    margin-bottom: 10px;
+}
+footer {
+    padding: 20px;
+    background-color: black;
+    color: white;
+}
+footer ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+
